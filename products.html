@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-page="products" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google" content="notranslate" />
+    <title>產品｜智文藥房</title>
+    <meta
+      name="description"
+      content="智文藥房產品目錄。中西成藥、保健品同日常用品。"
+    />
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@11.2.3/public/assets/styles/choices.min.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="index.html">
+          <img src="images/logo.svg" alt="" width="40" height="40" />
+          <span>
+            <span class="brand-name">智文藥房</span>
+            <span class="brand-en">Chi Man Pharmacy</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <nav class="nav" data-i18n-aria="nav.main" aria-label="主要">
+            <a href="index.html" data-i18n="nav.home">首頁</a>
+            <a href="products.html" aria-current="page" data-i18n="nav.products">產品</a>
+            <a href="services.html" data-i18n="nav.services">服務</a>
+            <a class="nav-pin" href="branches.html">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z" />
+                <circle cx="12" cy="10" r="2.2" />
+              </svg>
+              <span data-i18n="nav.branches">分店</span>
+            </a>
+          </nav>
+          <div data-lang-switcher></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="blob"></div>
+        <div class="wrap">
+          <p class="badge" data-i18n="products.badge">產品</p>
+          <h1 data-i18n="products.heading">產品目錄</h1>
+          <p class="lead lead-md" data-i18n="products.lead">門市有售。價錢同存貨請向分店查詢。</p>
+        </div>
+      </section>
+      <div class="wrap section">
+        <div class="catalog">
+          <div id="product-tree"></div>
+          <div id="product-groups"></div>
+        </div>
+      </div>
+    </main>
+
+    <section class="band band-t exclusive-brands" aria-labelledby="exclusive-title">
+      <div class="wrap">
+        <h2 id="exclusive-title" data-i18n="exclusive.title">獨家代理</h2>
+        <ul class="exclusive-logos">
+          <li>
+            <img src="images/brands/germtle.png" alt="GERMTLE 德國古堡" width="128" height="96" />
+          </li>
+          <li>
+            <img src="images/brands/kavits.png" alt="KaVits Health 維健堡" width="128" height="96" />
+          </li>
+          <li>
+            <img src="images/brands/crcm-a1.png" alt="CRCM A-1" width="128" height="96" />
+          </li>
+          <li>
+            <img src="images/brands/bun-lui.png" alt="奔雷豹" width="128" height="96" />
+          </li>
+          <li>
+            <img src="images/brands/bull-king.png" alt="公牛王" width="128" height="96" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <a class="brand" href="index.html">
+          <img src="images/logo.svg" alt="" width="40" height="40" />
+          <span>
+            <span class="brand-name">智文藥房</span>
+            <span class="brand-en">Chi Man Pharmacy</span>
+          </span>
+        </a>
+        <p class="footer-links">
+          <a href="index.html" data-i18n="nav.home">首頁</a>
+          <a href="services.html" data-i18n="nav.services">服務</a>
+          <a href="branches.html" data-i18n="nav.branches">分店</a>
+          <a
+            class="fb"
+            href="https://www.facebook.com/ChimanGroup"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v9h4v-9h3l1-4h-4V9c0-.6.4-1 1-1Z" />
+            </svg>
+            Facebook
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@11.2.3/public/assets/scripts/choices.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/products-data.js"></script>
+    <script src="js/products.js"></script>
+    <script>
+      renderProductTree("product-tree");
+      renderProductGroups("product-groups");
+    </script>
+  </body>
+</html>
