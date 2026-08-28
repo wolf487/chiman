@@ -134,8 +134,13 @@ dd {
   gap: 0.625rem;
 }
 
-.brand img {
+.brand img:not(.brand-logo-2) {
   width: 2.5rem;
+  height: 2.5rem;
+}
+
+.brand-logo-2 {
+  width: auto;
   height: 2.5rem;
 }
 
@@ -882,7 +887,7 @@ h2 {
   color: rgb(255 255 255 / 80%);
 }
 
-.site-footer img {
+.site-footer .brand img:not(.brand-logo-2) {
   filter: brightness(0) invert(1);
 }
 
