@@ -75,8 +75,8 @@ const MESSAGES = defineMessages([
   [
     "home.aboutLead",
     "智文藥房 2002 年於香港開業，至今已有二十幾年。於2023 旗下新增加品牌「國民藥房」，全港共有6間分店，遍佈屯門、元朗、沙田、慈雲山同旺角，服務街坊同訪港旅客。我哋以多元化零售概念，提供中西成藥、保健、美妝同生活用品，照顧健康同美容需要。",
-    "智文药房 2002 年于香港开业，至今已有二十几年。于2023 旗下新增加品牌“国民药房”，全港共有6间分店，遍布屯门、元朗、沙田、慈云山同旺角，服务街坊同访港旅客。我哋以多元化零售概念，提供中西成药、保健、美妆同生活用品，照顾健康同美容需要。",
-    "Chi Man Pharmacy opened in Hong Kong in 2002 and has been operating for over twenty years. In 2023, it launched a new brand, "People's Pharmacy" (Guomin Pharmacy). There are currently 6 branches across Hong Kong, located in Tuen Mun, Yuen Long, Sha Tin, Tsz Wan Shan, and Mong Kok, serving both local residents and visitors to Hong Kong. Based on a diversified retail concept, we provide Chinese and Western medicines, healthcare products, cosmetics, and daily necessities to meet your health and beauty needs.",
+    "智文药房 2002 年于香港开业，至今已有二十几年。于2023 旗下新增加品牌「国民药房」，全港共有6间分店，遍布屯门、元朗、沙田、慈云山同旺角，服务街坊同访港旅客。我哋以多元化零售概念，提供中西成药、保健、美妆同生活用品，照顾健康同美容需要。",
+    "Chi Man Pharmacy opened in Hong Kong in 2002 and has been operating for over twenty years. In 2023, it launched a new brand, (National Pharmacy). There are currently 6 branches across Hong Kong, located in Tuen Mun, Yuen Long, Sha Tin, Tsz Wan Shan, and Mong Kok, serving both local residents and visitors to Hong Kong. Based on a diversified retail concept, we provide Chinese and Western medicines, healthcare products, cosmetics, and daily necessities to meet your health and beauty needs.",
   ],
   ["home.aboutCommunityTitle", "社區與正貨", "社区与正货", "Community & genuine goods"],
   [
