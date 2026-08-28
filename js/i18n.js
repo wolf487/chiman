@@ -62,7 +62,7 @@ const MESSAGES = defineMessages([
   ],
 
   ["home.badge", "開業於 2002 · 智文與你常在", "开业于 2002 · 智文与你常在", "Since 2002 · Chi Man, always with you"],
-  ["home.title", "智文藥房", "智文药房", "Chi Man Pharmacy"],
+  ["home.title", "智文藥房/國民大藥房", "智文药房/国民大药房", "Chi Man Pharmacy/National Pharmacy"],
   [
     "home.lead",
     "中西成藥、配藥、藥物咨詢。鄰近社區，方便配藥同買日常用品。",
